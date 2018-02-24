@@ -1,0 +1,1 @@
+<html><body><p>ERROR: Can't write to the log file (logs/index.txt), please make sure this file exists and is CHMOD to 666 (rw-rw-rw-)!</p></body></html>

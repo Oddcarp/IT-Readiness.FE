@@ -1,0 +1,316 @@
+/** BASIC */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #E7FC94 url(images/greenbkgd1.png) repeat-x left top;
+	}
+
+/** FORMS */
+
+form {
+	margin: 0px;
+	padding: 0px;
+}
+
+/** HEADINGS */
+
+h1, h2, h3 {
+	margin: 0px;
+}
+h4 {
+	font-size:19px;
+	color:#FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: text-bottom;
+	padding-top: 13px;}
+
+/** TEXTS */
+
+body, th, td, input, textarea, select {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8A8A8A;
+}
+
+p, ul, ol, dl {
+	margin-top: 0px;
+	margin-bottom: 1.5em;
+	text-align: justify;
+	line-height: 160%;
+}
+
+.list1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list1 li {
+	padding: 1px 0px;
+	background: url(images/homepage16.gif) repeat-x left top;
+}
+
+.list1 li.first {
+	background: none;
+}
+
+.list1 a {
+	
+	color: #79826C;
+}
+
+strong {
+	color: #555555;
+}
+
+/** LINKS */
+
+a {
+	color: #69A143;
+}
+
+a:hover {
+	color: #0000CC;
+	text-align: right;
+}
+
+/** MISC */
+
+.align-justify {
+	text-align: justify;
+}
+
+.align-right {
+	text-align: right;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 3px 25px 0px 0px;
+}
+
+img.right {
+	float: right;
+	margin: 3px 0px 0px 25px;
+}
+
+img.border {
+}
+
+hr {
+	border: 1px solid #999999;
+	width: 80%;
+}
+
+.hr1 {
+	height: 1px;
+}
+
+/** WRAPPER */
+
+#wrapper {
+	width: 749px;
+	padding: 15px 14px 15px 15px;
+	background: #FFFFFF;
+}
+/* Menu */
+
+#menu ul {
+	margin: 0px;
+	padding: 0px 0px 0px 20px;
+	list-style: none;
+}
+
+#menu li {
+	float: left;
+	padding-top: 130px;
+	padding-left: 2px;
+	vertical-align: text-bottom;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 99px;
+	height: 23px;
+	padding: 6px 0px 0px 0px;
+	background: url(images/subpage04.png) no-repeat left top;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+	background: url(images/subpage04_dark.png) no-repeat left top;
+
+}
+
+/** PAGE */
+
+#page {
+	width: 749px;
+	background: red url(images/homepage06.gif) repeat-y left top;
+}
+
+/** CONTENT */
+
+#content {
+	width: 507px;
+	padding: 20px 21px 0px 21px;
+	background: url(images/homepage07.jpg) no-repeat left top;
+}
+
+/** BOX STYLE A */
+
+.boxA {
+}
+
+.boxA .title h2 {
+	font-size: 18px;
+	color: #494949;
+}
+
+.boxA .title h3 {
+	margin-bottom: 15px;
+	font-size: 13px;
+	font-weight: normal;
+	color: #308421;
+}
+
+.boxA .content {
+}
+
+/** BOX STYLE B */
+
+.boxB {
+	margin: 0px 0px 25px 0px;
+	background: #A5C020 url(images/homepage10.gif) repeat-x 0px 5px;
+	color: #BBD8A1;
+}
+
+.boxB p {
+	color: #BBD8A1;
+}
+
+.boxB h2 {
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 10px 0px;
+	background: url(images/homepage12.gif) repeat-x left bottom;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.boxB a {
+	color: #FFFFFF;
+}
+
+.boxB a:hover {
+	color: #0000FF;
+}
+
+.boxB .bgtop {
+	height: 5px;
+	background: url(images/homepage09.gif) no-repeat left top;
+}
+
+.boxB .bgbtm {
+	height: 5px;
+	background: url(images/homepage11.gif) no-repeat left bottom;
+}
+
+.boxB .column-one {
+	float: left;
+	width: 204px;
+	padding: 15px 0px 5px 30px;
+}
+
+.boxB .column-onea {
+	float: left;
+	width: 445px;
+	padding: 15px 30px 5px 30px; 
+}
+
+.boxB .column-two {
+	float: right;
+	width: 204px;
+	padding: 15px 30px 5px 0px;
+}
+
+/** BOX STYLE C */
+
+.boxC {
+}
+
+.boxC .title {
+	height: 39px;
+	background: url(images/homepage13c.png) repeat-x left top;
+}
+
+.boxC .title1 {
+	height: 55px;
+	background: url(images/homepage13a.png) repeat-x left top;
+}
+
+.boxC .title1 h2 {
+	padding: 10px 0px 10px 13px;
+	font-size: 14px;
+	color: #4F703B;
+}
+
+.boxC .title h2 {
+	padding: 10px 0px 10px 13px;
+	font-size: 14px;
+	color: #4F703B;
+}
+
+.boxC .content {
+	padding: 10px 15px;
+}
+
+.boxC .bgbtm {
+	background: url(images/homepage14.gif) no-repeat left bottom;
+}
+
+.boxC h3 {
+	font-size: 10px;
+	color: #308421;
+}
+
+/** SIDEBAR */
+
+
+}
+
+/** FOOTER */
+
+#footer {
+	
+	padding: 0px 20px 0px 10px;
+	background: url(images/homepage17a.png) ;
+	color: #979D7E;
+}
+
+#footer p {
+	padding-top: 36px;
+}
+
+#footer .links {
+	padding-left: 30px;
+	float: left;
+}
+
+#footer .legal {
+	padding-right: 30px;
+	float: right;
+}
+
+#footer a {
+	color: #979D7E;
+}

@@ -1,0 +1,27 @@
+body {
+  max-width: 1000px;
+  margin: 25px auto;
+}
+.body-image {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.body-words {
+  padding: 25px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: orange;
+}
+.body-words p {
+  text-align: justify;
+}
+.body-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 25px 0px;
+  background: red;
+}
