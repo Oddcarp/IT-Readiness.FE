@@ -2,10 +2,18 @@ body {
   max-width: 1000px;
   margin: 25px auto;
 }
+.nav-link {
+  background-color: #000000;
+  color: #ffffff;
+  display:block;
+  float:left;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
 .body-image {
   margin-left: auto;
   margin-right: auto;
-
 }
 .body-words {
   padding: 25px;
